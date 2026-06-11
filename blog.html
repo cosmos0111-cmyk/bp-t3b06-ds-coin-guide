@@ -3,84 +3,355 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>코인노래방(코노)에서 점수 100점 나오는 신기한 선곡 꿀팁과 에티켓 | 당산 코인노래방 백과사전</title>
-  <meta name="description" content="오늘 형이 코노만 가면 80점 나와서 기죽는 동생들을 위해 100점 쾌감 지르는 선곡 비법 푼다.
-      첫째, 기계 마이크 세팅에서 소리를 모아주는 발성을 하고, 너무 높은 고음 곡보다는 내 음역대에 맞는 저음/미디움 템포 발라드를 골라라. 기계는 음정을 기가 막...">
-  <link rel="canonical" href="https://t3b06-ds-coin-guide.pages.dev/blog.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-midnight-glass">
+  <title>당산 코인노래방 가이드 블로그 | 진짜 후기 & 꿀팁</title>
+  <meta name="description" content="당산에서 코인노래방 가려는 형들? 내가 직접 돌아다니면서 찍은 후기랑 가격, 꿀팁 다 푼다. 당산 코인노래방 가이드 블로그 보면 바로 알게 됨. 전화 010-6279-0862">
+  <meta name="keywords" content="당산 코인노래방, 당산 노래방, 코인노래방 블로그, 당산 코인노래방 후기, 당산역 노래방 꿀팁">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-acid-yellow">
+  <link rel="canonical" href="https://t3b06-ds-coin-guide.vercel.app/blog">
+  <meta property="og:title" content="당산 코인노래방 가이드 블로그 | 후기 & 꿀팁">
+  <meta property="og:description" content="당산에서 코인노래방 가려는 형들? 내가 직접 돌아다니면서 찍은 후기랑 가격, 꿀팁 다 푼다. 당산 코인노래방 가이드 블로그 보면 바로 알게 됨.">
+  <meta property="og:image" content="https://t3b06-ds-coin-guide.vercel.app/og-blog.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-      :root {
-        --bg: #090d16;
-        --fg: #f1f5f9;
-        --accent: #a78bfa;
-        --muted: #94a3b8;
-        --border: rgba(255,255,255,0.08);
+    /* Reset & Base */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5e6c8;
+      color: #1a1a1a;
+      min-height: 100vh;
+      position: relative;
+    }
+    /* Brutalist Texture */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath d='M0 0h4v4H0z' fill='none'/%3E%3Cpath d='M0 0h1v1H0zm2 2h1v1H2z' fill='rgba(0,0,0,0.03)'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+    }
+    /* Typography */
+    h1, h2, h3, h4 {
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      text-transform: uppercase;
+      color: #1a1a1a;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      margin-bottom: 1rem;
+      border-left: 6px solid #e6a817;
+      padding-left: 0.75rem;
+    }
+    h3 {
+      font-size: clamp(1.3rem, 3vw, 1.8rem);
+      margin-bottom: 0.75rem;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    a {
+      color: #1a1a1a;
+      text-decoration: underline wavy #e6a817 2px;
+      text-underline-offset: 4px;
+      transition: all 0.2s;
+    }
+    a:hover {
+      color: #e6a817;
+      text-decoration-color: #1a1a1a;
+    }
+    /* Utility */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
+    .full-bleed {
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+      background: #1a1a1a;
+      color: #f5e6c8;
+      padding: 2rem 0;
+    }
+    .skew-left {
+      transform: skewX(-3deg);
+      display: inline-block;
+      background: #e6a817;
+      padding: 0.3rem 1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .skew-right {
+      transform: skewX(3deg);
+      display: inline-block;
+      background: #1a1a1a;
+      color: #f5e6c8;
+      padding: 0.3rem 1rem;
+    }
+    /* Navigation */
+    nav {
+      background: #1a1a1a;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 4px solid #e6a817;
+    }
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: #e6a817;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: -0.05em;
+    }
+    nav .logo:hover {
+      color: #f5e6c8;
+      text-decoration: none;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+    nav ul li a {
+      color: #f5e6c8;
+      text-decoration: none;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+    nav ul li a:hover {
+      border-bottom-color: #e6a817;
+      color: #e6a817;
+      text-decoration: none;
+    }
+    /* Hamburger menu */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+    .hamburger span {
+      width: 28px;
+      height: 3px;
+      background: #e6a817;
+      display: block;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    @media (max-width: 768px) {
+      .hamburger {
+        display: flex;
       }
-      body { background: var(--bg); color: var(--fg); font-family: 'Pretendard', sans-serif; line-height: 1.8; }
-      header { border-bottom: 1px solid var(--border); padding: 20px 0; background: rgba(9, 13, 22, 0.8); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; }
-      .container { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
-      .hero { padding: 120px 0; text-align: center; background: radial-gradient(circle at center, rgba(167, 139, 250, 0.08), transparent 70%); }
-      .hero h1 { font-size: 3.2rem; font-weight: 800; color: #fff; margin-bottom: 20px; text-shadow: 0 0 20px rgba(167, 139, 250, 0.2); }
-      .btn { display: inline-block; padding: 14px 40px; background: linear-gradient(135deg, #a78bfa, #7c3aed); color: #fff; text-decoration: none; font-weight: 700; border-radius: 30px; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3); transition: all 0.3s; }
-      .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(124, 58, 237, 0.5); }
-      .content-section { padding: 80px 0; }
-      .card { background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border); backdrop-filter: blur(8px); padding: 30px; border-radius: 16px; margin-bottom: 24px; }
-      .review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; }
-      .review-card { background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border); padding: 24px; border-radius: 16px; }
-    
-    header .container { display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 900; text-decoration: none; color: var(--fg); letter-spacing: -0.05em; }
-    nav a { color: var(--fg); text-decoration: none; font-weight: 700; margin-left: 12px; font-size: 0.9rem; }
-    nav a:hover { color: var(--accent); }
-    footer { border-top: 1px solid var(--border); padding: 40px 0; background: rgba(0,0,0,0.01); color: var(--muted); font-size: 0.85rem; }
-    footer .container { display: flex; justify-content: space-between; align-items: center; }
-    footer a { color: var(--muted); text-decoration: none; font-weight: bold; }
-    footer a:hover { color: var(--accent); }
-    .p-bar { background: var(--accent); color: #fff; padding: 10px 0; text-align: center; font-weight: 700; font-size: 0.95rem; }
-    .p-bar a { color: #fff; text-decoration: underline; }
+      nav ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: #1a1a1a;
+        padding: 1rem 0;
+        gap: 0.5rem;
+        border-top: 2px solid #e6a817;
+      }
+      nav ul.active {
+        display: flex;
+      }
+      nav ul li a {
+        display: block;
+        padding: 0.8rem 1.5rem;
+        border-bottom: 1px solid rgba(230,168,23,0.2);
+      }
+    }
+    /* Tel link */
+    .tel-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #e6a817;
+      color: #1a1a1a;
+      padding: 0.5rem 1.2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 3px solid #1a1a1a;
+      transition: all 0.2s;
+    }
+    .tel-link:hover {
+      background: #1a1a1a;
+      color: #e6a817;
+      border-color: #e6a817;
+      text-decoration: none;
+    }
+    /* Blog specific */
+    .blog-hero {
+      padding: 4rem 0 2rem;
+      text-align: center;
+    }
+    .blog-hero h1 {
+      font-size: clamp(2.8rem, 10vw, 5rem);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .blog-hero .subhead {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      color: #333;
+    }
+    .blog-post {
+      background: #fff9ec;
+      border: 4px solid #1a1a1a;
+      padding: 2.5rem;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    .blog-post::before {
+      content: 'BLOG';
+      position: absolute;
+      top: -1.2rem;
+      left: 1rem;
+      background: #e6a817;
+      padding: 0.2rem 1rem;
+      font-weight: 900;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      color: #1a1a1a;
+    }
+    .blog-post .meta {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+    .blog-post h2 {
+      border-left-color: #e6a817;
+      margin-top: 1.5rem;
+    }
+    .blog-post h3 {
+      margin-top: 1.2rem;
+      border-bottom: 3px solid #e6a817;
+      padding-bottom: 0.3rem;
+    }
+    .blog-post ul, .blog-post ol {
+      margin-left: 1.5rem;
+      margin-bottom: 1.2rem;
+    }
+    .blog-post li {
+      margin-bottom: 0.3rem;
+    }
+    .highlight-box {
+      background: #1a1a1a;
+      color: #f5e6c8;
+      padding: 1.5rem;
+      border-left: 8px solid #e6a817;
+      margin: 1.5rem 0;
+    }
+    .highlight-box p {
+      margin: 0;
+    }
+    .footer-cta {
+      text-align: center;
+      padding: 3rem 0 4rem;
+    }
+    .footer-cta .tel-link {
+      font-size: 1.3rem;
+      padding: 0.8rem 2rem;
+    }
+    @media (max-width: 768px) {
+      .blog-post {
+        padding: 1.5rem;
+      }
+      .blog-post .meta {
+        font-size: 0.75rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="p-bar">🚨 형님들 눈탱이 없는 리얼 정찰제 문의: <a href="tel:010-6279-0862">📞 010-6279-0862</a> (24시간 실시간 대기)</div>
-  <header>
+  <!-- Navigation -->
+  <nav>
     <div class="container">
-      <a href="index.html" class="logo">당산.코인노래방</a>
-      <nav><a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a></nav>
+      <a href="/" class="logo">당산코인</a>
+      <button class="hamburger" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul>
+        <li><a href="/">홈</a></li>
+        <li><a href="/guide">가이드</a></li>
+        <li><a href="/blog">블로그</a></li>
+        <li><a href="/map">지도</a></li>
+        <li><a href="tel:010-6279-0862" class="tel-link">전화문의</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+
+  <!-- Main Content -->
   <main>
-    <section class="hero">
-      <div class="container">
-        <h1>코인노래방(코노)에서 점수 100점 나오는 신기한 선곡 꿀팁과 에티켓</h1>
-        <p style="font-size:1.2rem; opacity:0.9; margin-top:15px;">작성자: 당산 마당발 실장 형님 | 카테고리: 정보/꿀팁</p>
-      </div>
-    </section>
-    
-    <section class="content-section">
-      <div class="container">
-        <div class="card" style="border:none;">
-          <div style="font-size:1.15rem; line-height:2.0; color:var(--fg);">
-            <p style="margin-bottom:20px;">오늘 형이 코노만 가면 80점 나와서 기죽는 동생들을 위해 100점 쾌감 지르는 선곡 비법 푼다.</p><p style="margin-bottom:20px;">첫째, 기계 마이크 세팅에서 소리를 모아주는 발성을 하고, 너무 높은 고음 곡보다는 내 음역대에 맞는 저음/미디움 템포 발라드를 골라라. 기계는 음정을 기가 막히게 잡는다.</p><p style="margin-bottom:20px;">둘째, 대형 패키지 룸을 이용할 땐 예약 번호(010-6279-0862)로 미리 "시간제 서비스 빵빵하게 주는 룸"으로 찜해 달라고 사전 접수해라. 동전 넣는 번거로움 없이 편안하게 부를 수 있음.</p><p style="margin-bottom:20px;">셋째, 다음 대기 손님을 위해 마이크 커버는 깔끔하게 수거함에 버리고 오는 명품 코노 매너를 지켜라.</p><p style="margin-bottom:20px;">형이 엄선한 최고의 코노에서 시원하게 백점 만점 지르고 스트레스 풀길 바란다.</p>
-          </div>
-          <div style="margin-top:40px; padding:20px; border:1px dashed var(--accent); background:rgba(255,85,0,0.02); text-align:center;">
-            <p style="font-weight:bold; margin-bottom:15px;">이 글이 도움이 되셨다면, 형이 확실히 엄선한 로컬 매장 실시간 부킹 라인으로 예약해 보세요!</p>
-            <a href="index.html" style="color:var(--accent); font-weight:bold; text-decoration:underline;">[홈페이지 바로가기]</a> | 
-            <a href="about.html" style="color:var(--accent); font-weight:bold; text-decoration:underline;">[오시는 길 &amp; 요금표 확인]</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
     <div class="container">
-      <div>&copy; 2026 당산 코인노래방 스페셜 가이드. All Rights Reserved.</div>
-      <div>
-        <a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a>
-      </div>
-    </div>
-  </footer>
+      <!-- Hero -->
+      <section class="blog-hero">
+        <h1>블로그</h1>
+        <p class="subhead">당산 코인노래방 가이드 — 진짜 하는 후기 & 꿀팁 다 풀어줌</p>
+        <span class="skew-left">형들을 위한 직빵 정보</span>
+      </section>
+
+      <!-- Blog Post 1 (single post as per request) -->
+      <article class="blog-post">
+        <div class="meta">2025년 3월 26일 · 7 min read · 작성자: 당산노래방탐험대</div>
+        <h1 style="font-size: clamp(2rem, 5vw, 2.8rem); margin-bottom: 1rem;">당산 코인노래방 완전 정복 — 내가 3일 돌아다니면서 알아낸 모든 것</h1>
+
+        <p>야, 형들. 나 요즘 당산에서 코인노래방 찾아다니는 재미에 제대로 빠졌어. 원래는 그냥 가끔 가는 정도였는데, 최근에 주변에서 "당산 코인노래방 어디가 좋냐?"는 질문을 너무 많이 받아서 이 참에 내가 직접 다 가보기로 했음. 3일 동안 점심 굶고 퇴근 후에 당산역 앞에서 헤매면서 7개 코인노래방을 다녀왔어. 결과적으로 완전 대박이었고, 이 글 하나면 형들도 나처럼 고생 안 해도 됨.</p>
+
+        <h2>왜 당산 코인노래방인가?</h2>
+        <p>사실 서울에 코인노래방 엄청 많잖아? 근데 당산은 좀 특별해. 첫째, <strong>가격이 착해</strong>. 홍대나 강남처럼 바가지 없음. 둘째, <strong>방음이 생각보다 좋아</strong> (특히 몇몇 업소는 진짜 깜놀 수준). 셋째, <strong>밤늦게까지 하는 곳이 많아서</strong> 술 마시고 가기 딱 좋음. 나 같은 직장인들한테는 퇴근 후 한 곡 하고 집 가는 게 완벽한 힐링이야.</p>
+
+        <div class="highlight-box">
+          <p><strong>🔥 꿀팁:</strong> 평일 저녁 6시 전에 가면 대부분 1곡당 100원~200원 싸게 해줌. 금요일 밤에는 사람 많으니까 미리 예약 문자 넣어두는 것도 팁.</p>
+        </div>
+
+        <h2>내가 직접 가본 당산 코인노래방 3곳</h2>
+
+        <h3>1. 당산역 3번 출구 바로 앞 — "노래가좋다"</h3>
+        <p>여기는 진짜 역에서 30초 거리야. 지하철 타기 전에 한 곡 하고 싶은 날 완전 최적. 입구가 좁아서 처음에 찾기 힘들었는데, 3번 출구 나와서 편의점 옆 골목으로 쭉 들어가면 2층에 있어. 가격은 500원에 3곡. 방이 8개 정도 있고, 마이크 상태는 평균 이상. 근데 단점은 <strong>에어컨이 약해</strong>. 여름에 가면 땀 삐질삐질 흘리면서 불러야 함. 그래도 위치가 너무 좋아서 자주 감.</p
 </body>
 </html>
