@@ -1,260 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/about.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/blog.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/juice-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/juice-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/review-002-1jvdmub.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/t3link-001-1jvdmub.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/t3link-001-1y39q1h.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0257.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0258.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0259.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0260.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0261.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0262.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0263.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0264.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0265.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0266.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0267.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0268.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0269.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0270.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0271.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260719-0272.html</loc>
-    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0287.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0288.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0289.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0290.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0291.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0111.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0112.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0113.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0114.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0115.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0116.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0117.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0118.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0119.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0120.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0121.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/review-002-1jvdmub.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/t3link-001-1jvdmub.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dangsan-song-review.mapo-room-guide.xyz/posts/t3link-001-1y39q1h.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
